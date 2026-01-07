@@ -1,0 +1,11 @@
+pyrofork
+tgcrypto
+
+motor
+psutil
+pytz
+aiohttp
+moviepy
+ffmpeg
+aria2p[tui]
+aria2
