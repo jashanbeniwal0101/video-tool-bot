@@ -14,8 +14,8 @@ LOG_FILE_PATH = os.path.join(LOG_DIR, "bot.log")
 # =========================
 # TELEGRAM CREDENTIALS
 # =========================
-API_ID = int(os.getenv("API_ID", "12345678"))  # from my.telegram.org
-API_HASH = os.getenv("API_HASH", "your_api_hash_here")
+APP_ID = int(os.getenv("API_ID", "25331263"))  # from my.telegram.org
+API_HASH = os.getenv("API_HASH", "cab85305bf85125a2ac053210bcd1030")
 BOT_TOKEN = os.getenv("BOT_TOKEN", "your_bot_token_here")
 
 # =========================
@@ -23,7 +23,7 @@ BOT_TOKEN = os.getenv("BOT_TOKEN", "your_bot_token_here")
 # =========================
 BOT_WORKERS = int(os.getenv("BOT_WORKERS", "8"))
 
-OWNER_ID = int(os.getenv("OWNER_ID", "123456789"))
+OWNER_ID = int(os.getenv("OWNER_ID", "1955406483"))
 ADMINS = list(map(int, os.getenv("ADMINS", str(OWNER_ID)).split()))
 
 # =========================
