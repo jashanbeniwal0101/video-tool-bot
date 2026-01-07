@@ -49,7 +49,7 @@ async def extract_thumb_handler(client: Client, query: CallbackQuery):
 
 async def remove_forward_tag(client: Client, query: CallbackQuery):
     try:
-        await remove_forward_tag(clie, query)
+        await remove_forward_tag(client, query)
     except Exception as e:
         logging.info(e)
 
